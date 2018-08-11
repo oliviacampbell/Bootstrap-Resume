@@ -5,17 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bootstrap Resume</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="jumbotron bg-primary text-white ">
-        <h1 class="display-4">Your Name</h1>
-        <p class="lead">Your Position</p>
-        <p>(This is a jumbotron)</p>
+    <div class="container justify-content-center">
+
+        <!-- START JUMBOTRON-->
+        <div class="jumbotron bg-primary text-white ">
+            <h1 class="display-4">Your Name</h1>
+            <p class="lead">Your Position</p>
+            <p>(This is a jumbotron)</p>
+        </div>
+        <!--END JUMBOTRON-->
+
+        <!--START ALERT-->
+        <div class="alert alert-success" role="alert">
+            <strong>This resume was created using Bootstrap 4!</strong>
+            <span style="font-size: 12px;">(This is an alert)</span>
+        </div>
+        <!--END ALERT-->
+
+        <div class="row col-3">
+            <h2 style="margin-top: 0.5em;">My Skills</h2>
+            <p style="font-size: 12px;">(this is a list group with badges)</p>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                HTML/CSS
+                <span class="badge badge-primary badge-pill">25%</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Frond-End JavaScript
+                <span class="badge badge-primary badge-pill">20%</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                NodeJS Server Development
+                <span class="badge badge-primary badge-pill">35%</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                SQL
+                <span class="badge badge-primary badge-pill">20%</span>
+            </li>
+        </ul>
+
+        <h2 style="margin-top: 1em;">My Experience</h2>
+        <p style="font-size: 12px;">(this uses the grid system with cards)</p>
+
+        
+
+
+
+
+
     </div>
+
+
 
 
 
